@@ -1,0 +1,61 @@
+.player {
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  background-color: #000;
+
+  .xgplayer {
+    &-controls {
+      transition: all 0.2s linear;
+    }
+    &-progress {
+      transition: all 0.2s linear;
+
+      &-outer, &-cache, &-played {
+        border-radius: 5px!important;
+      }
+      &-played {
+        background-image: none!important;
+        background-color: #ffffff!important;
+      }
+      &-btn {
+        top: -3px!important;
+        width: 9px!important;
+        height: 9px!important;
+      }
+    }
+  }
+  
+  .xgplayer-skin-default.xgplayer-inactive {
+    .xgplayer {
+      &-controls {
+        display: block;
+        opacity: 0.5;
+      }
+      &-progress {
+        &-outer {
+          height: 1px!important;
+        }
+        &-btn {
+          top: -2px!important;
+          width: 6px!important;
+          height: 6px!important;
+        }
+      }
+    }
+  }
+
+  .xgplayer-skin-default.xgplayer-mobile .xgplayer-progress:focus .xgplayer-progress-btn,
+  .xgplayer-skin-default.xgplayer-mobile .xgplayer-progress:hover .xgplayer-progress-btn {
+    top: -3px!important;
+  }
+
+  .xgplayer-skin-default.xgplayer-mobile.xgplayer-inactive .xgplayer-progress:focus .xgplayer-progress-btn,
+  .xgplayer-skin-default.xgplayer-mobile.xgplayer-inactive .xgplayer-progress:hover .xgplayer-progress-btn {
+    top: -2px!important;
+  }
+}
