@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/FE-TK/static/css/main.3930c681.chunk.css",
+    "main.js": "/FE-TK/static/js/main.736d22a1.chunk.js",
+    "main.js.map": "/FE-TK/static/js/main.736d22a1.chunk.js.map",
+    "runtime-main.js": "/FE-TK/static/js/runtime-main.7a2f8a35.js",
+    "runtime-main.js.map": "/FE-TK/static/js/runtime-main.7a2f8a35.js.map",
+    "static/css/2.d4cfd8eb.chunk.css": "/FE-TK/static/css/2.d4cfd8eb.chunk.css",
+    "static/js/2.7d1772cf.chunk.js": "/FE-TK/static/js/2.7d1772cf.chunk.js",
+    "static/js/2.7d1772cf.chunk.js.map": "/FE-TK/static/js/2.7d1772cf.chunk.js.map",
+    "static/js/3.5e7905e6.chunk.js": "/FE-TK/static/js/3.5e7905e6.chunk.js",
+    "static/js/3.5e7905e6.chunk.js.map": "/FE-TK/static/js/3.5e7905e6.chunk.js.map",
+    "index.html": "/FE-TK/index.html",
+    "service-worker.js": "/FE-TK/service-worker.js",
+    "service-worker.js.map": "/FE-TK/service-worker.js.map",
+    "static/css/2.d4cfd8eb.chunk.css.map": "/FE-TK/static/css/2.d4cfd8eb.chunk.css.map",
+    "static/css/main.3930c681.chunk.css.map": "/FE-TK/static/css/main.3930c681.chunk.css.map",
+    "static/js/2.7d1772cf.chunk.js.LICENSE.txt": "/FE-TK/static/js/2.7d1772cf.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7a2f8a35.js",
+    "static/css/2.d4cfd8eb.chunk.css",
+    "static/js/2.7d1772cf.chunk.js",
+    "static/css/main.3930c681.chunk.css",
+    "static/js/main.736d22a1.chunk.js"
+  ]
+}
